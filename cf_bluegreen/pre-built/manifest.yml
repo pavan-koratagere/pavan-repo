@@ -1,0 +1,10 @@
+applications:
+- name: green-pavan
+  memory: 256MB
+  # Make this unique by adding your name, initials or somesuch
+  host: green-pavan
+  domain: cfapps.io
+  #path: build/lib/bluegreen-0.0.1-SNAPSHOT.war   # Gradle
+  #path: target/bluegreen-0.0.1-SNAPSHOT.war   # Maven
+  path: green.war
+
